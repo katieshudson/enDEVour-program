@@ -1,0 +1,79 @@
+** QUESTION 1 **
+
+
+Your program for this question will be a simple animation of a circle that changes colour. These are the requirements:
+
+- A circle will be drawn, starting at the top middle of the window.
+- Over time, the circle will move toward the bottom of the screen without leaving a trail.
+- Appropriate variables will be used to keep track of the colour and location of the circle.
+- The colour of the circle will change slowly over time (you’ll want to adjust it only a small amount every frame).
+- When the circle reaches the bottom of the screen, it should bounce back up, but every time it bounces it should go half as far up as the last time.
+      In other words, the first time it bounces, it would go to the top of the screen again; the second time, 
+      it would go halfway up; the third time, a quarter of the way up, and so on.
+
+
+Hint: Consider keeping track of the max height the circle should reach after every bounce at the bottom, 
+and if the circle is moving upwards, check whether that max height has been reached yet.
+
+** QUESTION 2 ** 
+
+rite a program to have small, borderless circles drawn at random locations over the screen. 
+Colour the circles one of two colours depending on their location so that one of the following shapes will be created (you pick which one).
+
+Hint for Shape A: How can you use the x and y values separately to determine whether to draw a blue or green circle?
+
+Hint for Shape B: dist() might be a helpful way to check how far away a new circle is from the middle of the screen/inner green circle! 
+Look it up in the Processing reference (Links to an external site.).
+
+Hint for Shape C: On the left side of the canvas, (1-y/height) < x/(width/2) is true when the circle should be green.
+
+
+** QUESTION 3 ** 
+
+Write a program that displays a circle. Make it so the user can click and drag the circle to move it around the screen.
+The circle should never move unless the mouse is being pressed, and the circle should always fully remain in the window.
+
+You may use the following code to get started:
+
+final int circleSize = 100;
+int circleX;
+int circleY;
+PImage logo;
+
+void setup()
+{
+  size(500, 400);
+
+  ellipseMode(CENTER);
+  imageMode(CENTER);
+
+  circleX = width/2;
+  circleY = height/2;
+
+  logo = loadImage("shopify_glyph.png");
+  logo.resize((int)(0.6*circleSize), 0);
+}
+
+void draw()
+{
+  background(240);
+  
+  fill(200);
+  noStroke();
+  ellipse(circleX, circleY, circleSize, circleSize);
+  
+  image(logo, circleX, circleY);
+}
+
+
+** QUESTION 4 ** 
+
+Make a program that lets you draw triangles. You should start with a blank screen. When you first press the mouse button, 
+you should draw a circle where the mouse is. The next time that you press the mouse button, you should draw another circle at the 
+new location. The third time that you press the mouse button, you should draw a circle, and then draw a triangle using these 
+3 circles at the 3 points of your triangle. Your program should allow you to draw as many triangles as you want.
+
+Hint: Think about what kinds of variables you might need for this question, and how many. Once you finish one triangle, 
+do you need to know where its corners are anymore?
+
+
