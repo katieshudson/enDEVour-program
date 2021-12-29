@@ -1,0 +1,7 @@
+Draw a circle in the output window. The output window should have dimension 600x400 and the circle should be centred at the point (400,100).
+
+When you change the initial settings for the size of the output window, the location of the circle should be in the same relative position. That is, the circle should be centred at the point whose x coordinate is 2/3 of the width of the output window and whose y coordinate is 1/4 the height of the output window.
+
+To figure out where to place the circle, use Processing's built in height (Links to an external site.) and width (Links to an external site.).
+
+(Hint: be aware of integer (Links to an external site.) division (Links to an external site.)!)
