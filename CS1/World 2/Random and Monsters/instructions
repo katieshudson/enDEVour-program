@@ -1,0 +1,73 @@
+** QUESTION 1 ** 
+
+Fill the screen with small circles by placing them at random() (Links to an external site) positions 
+(one new circle each time draw() is called). You might like to experiment with the frameRate() for this question.
+
+
+** QUESTION 2 **
+
+For this question, you will implement a program with a little monster head that will jump to wherever you click on the screen.
+
+First, write out the skeleton for your program: add empty setup() and draw() functions.
+
+Add variables at the top to keep track of the following, marking only the variables that shouldn't change as final:
+
+the head's x and y positions
+the head's width, height
+the background colour
+the head colour
+In setup(), set the window size and the starting position of the monster (the centre of the window works well). 
+Also switch to CENTER mode for drawing the rectangles.
+
+Add a mouseClicked() function that updates the relevant variables using the current position of the mouse.
+
+Add the following function, which acts as an abstraction for drawing a monster:
+
+void drawMonster(int x, int y, int width, int height, color fillColor)
+{ 
+  final int eyeRadius = 5;
+ 
+  fill(fillColor);
+  rect(x, y, width, height);
+
+  // Draw the left ear
+  triangle(x - width/4, // x1
+           y - height/2, // y1
+           x - width/4 - 10, // x2
+           y - height/2, // y2
+           x - width/4 - 5, //x3
+           y - height/2 - 10); //y3
+ 
+  // Draw the right ear
+  triangle(x + width/4, // x1
+           y - height/2, // y1
+           x + width/4 + 10, // x2
+           y - height/2, // y2
+           x + width/4 + 5, //x3
+           y - height/2 - 10); //y3
+ 
+  // Draw the left eye
+  ellipse(x - width/5,
+          y - height/4,
+          eyeRadius * 2,
+          eyeRadius * 2);
+ 
+ // Draw the right eye
+ ellipse(x + width/5,
+         y - height/4,
+         eyeRadius * 2,
+         eyeRadius * 2);
+}
+
+
+Finally, add code to draw() that clears the background and calls the drawMonster() function with the appropriate arguments 
+(use the variables you defined at the top of the program).
+
+** QUESTION 3 ** 
+
+Using the drawMonster() function from the previous question, write a program that displays three (unmoving) 
+monsters in three different locations. Make sure each monster has a different size and fill colour as well.
+
+(Did you notice that you were able to just copy/paste the drawMonster() function into the new program without 
+modifying it? That's because the use of parameters mean the code inside the function is completely self-contained. 
+Designing functions this way when possible is a good idea.)
