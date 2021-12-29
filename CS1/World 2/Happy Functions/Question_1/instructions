@@ -1,0 +1,25 @@
+Your goal with this question is to practice writing your own function. You can only write your own functions in active mode, 
+which is why we need to add draw() and setup() even though we aren't doing any animations or user interaction.
+
+Make a function called happy() that has no parameters and has no return value (that is, the return type is of type void). 
+The function should draw a happy face in the middle of the output window. Use the following setup() and draw() functions 
+in your sketch and do not add any code to these two functions.  (You can, of course, change the background colour and/or 
+the size of the window if you want to).
+
+void setup()
+{
+  size(500, 350);
+  background(14, 54, 8);
+  smooth();
+}
+
+void draw()
+{
+  happy();
+}
+
+
+
+Note: do not spend a lot of time making the happy face look nice.  
+That is not the point of this question.  
+You can use arc(100,100,50,50,0,PI) to make a "happy" mouth.
