@@ -1,0 +1,2 @@
+Draw a yellow rectangle in the centre of the screen, with a purple background, so that the rectangle occupies 1/9 of the area of the screen no matter 
+how large the screen is (you'll have to use some math knowledge to get this right, and a rough drawing on paper first might not hurt).
