@@ -1,0 +1,11 @@
+Remember your code from the Happy Functions assignment? 
+
+Let's think of our happy() function as an abstraction. When we use the function, 
+we want to know it will draw a happy face without caring how it's done. We're fairly close to being able to do this, 
+with just one problem: we can only draw our happy face in one location right now.
+
+Go get your code from the Happy Functions assignment.
+
+Generalize the happy() function so that you can draw happy faces wherever you want.
+
+Then, inside of draw(), call happy() several times such that the happy face shows up in a few different locations on the screen.
