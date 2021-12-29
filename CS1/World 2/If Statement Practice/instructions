@@ -1,0 +1,15 @@
+** QUESTION 1 ** 
+
+Fill the screen with small circles by placing them at random positions (one new circle each time draw() is called).  
+Any circle that appears on the righthand side of the output window should be one colour and all circles on the lefthand 
+side of the output window should be another colour.
+
+
+** QUESTION 2 ** 
+
+For this question you will draw a rectangle in the middle of the screen and change its colour according to mouse movement.
+
+When the mouse moves from the background to the rectangle in the centre of the output window the colours should be swapped 
+(the rectangle should be purple and the background should be yellow). When the mouse is not on the rectangle in the centre the 
+colours should be the same as they originally were (the rectangle should be yellow and the background should be purple).  
+Note that you do not have to click in order to change the colours.
