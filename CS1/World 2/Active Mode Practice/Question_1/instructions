@@ -1,0 +1,13 @@
+Draw a circle in the output window that moves to the right.  
+The circle should have an initial position centred at the point (width/4, height/8).  
+For example, below are 3 screenshots of the output window showing the initial circle, the moving circle some short time later, 
+and then the circle after it has moved out of the output window.
+
+Hints:
+
+- Which of the three reasons for needing variables are you going to apply?
+- What variables do you need? Put these at the top of the file before writing any functions.
+- What needs to be done once and only once? Put that code into setup().
+- You are going to be adding something new to the screen every time draw() is called. What is it? Call the appropriate shape function in draw().
+- Additionally, there is something you need to update every time draw() is called. Perhaps one of your variables? 
+- Think about how you can get your circle to change its position over time and make the change in draw().
