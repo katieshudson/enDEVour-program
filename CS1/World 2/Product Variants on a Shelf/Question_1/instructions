@@ -1,0 +1,12 @@
+Imagine you want to simulate the stocking of a shelf with a number of product variations. Write a program that satisfies the following:
+
+The program begins by showing an empty shelf.
+
+You have written a self-contained function that abstracts drawing the product variant. 
+The function will need parameters for the x and y position along with at least one other parameter that changes between variants 
+(for example, size or colour). Name your function well to indicate what it accomplishes.
+
+The user can press a number key ('1' through the number of variants) to select the next variant that will appear on the shelf.
+ 
+When the space key is pressed, a new instance of the currently selected variant appears somewhere randomly 
+along the shelf (don't worry if it overlaps with previous variants).
