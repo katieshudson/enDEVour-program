@@ -1,0 +1,2 @@
+Draw a rectangle in the output window. The rectangle should be horizontally centred and occupy almost all of the width 
+(but not all). Perhaps a change in the rect mode will be useful here?
