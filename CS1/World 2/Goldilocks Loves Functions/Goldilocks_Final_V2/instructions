@@ -1,0 +1,47 @@
+** INTRO ** 
+
+You are a merchant that is hoping to sell digital art downloads. You want your buyers to be able to customize your art in various ways before downloading it. 
+They will be able to adjust certain parameters, and then your code will generate the final image.
+
+To test your idea, you are building a prototype based on Goldilocks and the Three Bears (Links to an external site.). 
+For now, the main parameter that users can adjust is the height and width of the image.
+
+In your prototype, you have to draw three bears that are spaced evenly across the width of the window, no matter what size the window is 
+(within reason – don't worry about when the window is smaller than the three bears are).  There should be the same amount of space between 
+the bears as well as on either of side of the whole group of three.  The size of the bears does not have to change.
+
+You will also draw Goldilocks above the three bears.  There should be an equal amount of space between the top edge of the window and Goldilocks, 
+between Goldilocks and the bears, and the bears and the bottom edge of the window.
+
+You can draw the bears and Goldilocks however you want as long as 
+they are generally recognizable, but you need to have both a head and a body for both characters.
+
+** QUESTION 1 ** 
+
+(Submit your response to this question as a text and image file, or a PDF with everything, inside the zip with the code.)
+
+Create a plan for how you will write a program to draw the image:
+
+Write down the variable names you want to use in the sketch along with their data types.
+Draw a diagram showing how you plan to draw the bears and Goldilocks. 
+Label the important sizes and distances in the diagram as reference, using variable names instead of hardcoded values where appropriate.
+(You can use a tool like Google Drawings (Links to an external site.) or upload a phone picture/scan of a drawing you make on paper.)
+Explain conceptually how you are going to space the bears evenly apart across the window, 
+optionally using mathematical formulas in your explanation if you find it helpful.
+Explain how you can use a function to effectively abstract the drawing of each bear.
+
+
+** QUESTION 2 ** 
+
+Write code to implement the plan you laid out in Question 1.
+
+These are the technical requirements you will need to fulfill:
+
+A simple drawing of Goldilocks appears in the top half of the screen.
+Goldilocks is exactly in the middle of the screen horizontally no matter the size of the window.
+A simple drawing of the three bears appears in the bottom half of the screen.
+There is a single function that can draw a bear at a given x, y location. This function is called three times to draw all the bears.
+The space between the first and second bear is the same as the space between the second and third bear, 
+which is the same as the space between the edges of the window and the first or last bear.
+The space between the top of the window and Goldilocks is the same as the space between Goldilocks and the bears, 
+which is the same as the space between the bears and the bottom of the screen.
