@@ -1,0 +1,13 @@
+We're going to try our hand at looking for patterns and abstracting code we are already given.
+
+- Download the starter file  Download starter file.
+- Look for patterns that you could generalize.
+- Write one new function with whatever parameters you need to draw the shapes you see.
+- Call the new function exactly three times from draw().
+
+Now put your answer to the following as a comment in the top of your code file (you may wish to use multi-line comments 
+Keep in mind that articulating your answers clearly, completely, and correctly is challenging, but an important part of the process of truly 
+understanding the concepts.
+
+Refer back to the review of functions and variables, particularly the section on functions as abstractions. We said that there were 
+two sides of the abstraction coin: generalization, and hiding details. Explain how the new function you wrote above does each of these two things.
