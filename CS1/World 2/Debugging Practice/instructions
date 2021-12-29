@@ -1,0 +1,17 @@
+** QUESTION 1 ** 
+
+Programmer Jane Doe is trying to draw a house. The picture below shows what she’s trying to create. 
+But if you run her code in HouseDrawing  Download HouseDrawing, you can see it’s not working properly.
+Your job is to use one of the visual debugging techniques introduced earlier to figure out what's going wrong. 
+When you figure it out, fix the code, and write a comment above the line(s) of code you change, explaining what you did.
+
+
+** QUESTION 2 ** 
+
+Open your code from the Product Variants on a Shelf assignment.
+
+Use the Debug mode in Processing to determine the x and y coordinates of the 10th and 20th products that are drawn on the shelf. 
+(Don't just use a println; the purpose of the question is for you to get the hang of adding breakpoints and using the variables inspector).
+
+Submit two screenshots of your program output and the variables inspector, one after the 10th product is drawn and one after the 
+20th product is drawn. Highlight or circle the relevant product on the screenshot and its x and y coordinates in the variables inspector.
