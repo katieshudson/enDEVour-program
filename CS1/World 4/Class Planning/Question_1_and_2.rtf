@@ -1,0 +1,206 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue-Bold;\f1\fnil\fcharset0 HelveticaNeue;\f2\fnil\fcharset0 HelveticaNeue-BoldItalic;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red36\green42\blue45;\red255\green255\blue255;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c18824\c21569\c23137;\cssrgb\c100000\c100000\c100000;
+}
+\margl1440\margr1440\vieww22500\viewh21920\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b\fs36 \cf0 Question 1
+\f1\b0\fs28 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\i\b \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Describe your own analogy that explains the difference between a class definition, and constructing an object.
+\f1\i0\b0 \
+\
+A class serves as a template for creating specific objects within a program, which contains the properties (ie. attributes, fields or instance variables) that can be viewed or changed. It effectively describes what something is going to look like.  An important note about a Class is that the first letter of a class name is usually uppercase to separate it from other kinds of variables. (example: class Fruit)\
+\
+Next, an object is an example or occurrence of the class specified. It is made up of the attributes that were previously defined in the class. \
+\
+For example, we could have a class of Fruit (ie. class Fruit), and with this class it is used to make multiple objects or different kinds of Fruits such as orange, strawberry, kiwi, watermelon, lime, peach. The attributes that are defined in the class that help to create the actual object (in this case the fruit) could consist of: color, taste (ie. sweet, acidic etc), contains seeds inside, contains sides outside, has outer peel/shell. \
+\
+\
+String[] possibleTasteOptions = new String[]\{\'93Sweet\'94, \'93Acidic\'94, \'93Bitter\'94, \'93Tart\'94\}\
+class Fruit \
+\{\
+\
+   color fruitColor;\
+   String taste;     // could be represented as a string which is pulled from an String array of different options \
+   boolean seedsInside;   // could be represented as a boolean to look up a yes/no answer depending on the fruit created \
+   \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 boolean \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 seedsOutside; \expnd0\expndtw0\kerning0
+\outl0\strokewidth0  // could be represented as a boolean to look up a yes/no answer depending on the fruit created \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \
+   \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 boolean \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 outerPeel;        \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 // could be represented as a boolean to look up a yes/no answer depending on the fruit created \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\
+\}\
+\
+Fruit strawberry = new Fruit();\
+strawberry.color = color(255, 49, 125);\
+strawberry.taste = possibleTasteOptions[0];\
+\pard\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 strawberry.\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 seedsInside = false;\
+\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 strawberry.\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 seedsOutside = true;\
+\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 strawberry.\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 outerPeel = false;\
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+\
+\
+==== \
+\
+other notes \
+\pard\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 Class = blueprint - what something is going to look like\
+Object = construct the object / thing from the blueprint. you can build many objects from a class. \
+\
+Class Vehicle \
+Object Truck, Motorbike, Car, Scooter \
+speed, number of wheels, number of passengers, gas or electric, hand gear or foot pedal,\
+\
+Class Fruit \
+Object orange, grapes, lemon, watermelon \
+color, taste (sweet, acidic), contains seeds inside, contains seeds outside, has outer peel / shell, \
+\pard\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \
+====== \
+\
+\
+\
+\pard\pardeftab720\partightenfactor0
+\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+
+\f0\b\fs36 Question 2 
+\f1\b0\fs28 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f2\i\b \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Part A) Write out pseudocode for the class definition of the stock.
+\f1\i0\b0 \
+\
+class Stock\
+\{\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 String stockName;\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \
+\pard\pardeftab720\partightenfactor0
+\cf2 int currentPrice;\
+int[] historyOfPrices;\
+String industryName;\
+boolean publiclyTraded;\
+boolean highVolumeTrade;\
+\
+\}\
+\
+\
+\pard\pardeftab720\partightenfactor0
+\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\i\b \cf3 \cb4 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Part B) Write out pseudocode for the class definition of the portfolio class, and write pseudocode for a function that takes a portfolio as input and returns the value of the portfolio.
+\f1\i0\b0 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\
+\
+\
+class Portfolio \
+\{\
+\
+Stock[] stockList;\
+int[] stockQuantityList;\
+\
+\}\
+\
+\
+\
+\
+Stock[] listOfPossibleStocks = new Stock[]\
+\{\
+\
+shopifyStock,\
+stripeStock,\
+TelsaStock,\
+appleStock,\
+googleStock,\
+citigroupStock,\
+pfizerStock,\
+walmartStock,\
+generalElectricStock,\
+morganStanleyStock,\
+.\
+.\
+.\
+n-1;\
+\
+\}\
+\
+\
+// initialization example 1 of a new Stock object \
+Stock shopifyStock = new Stock();\
+shopifyStock.stockName = \'93Shopify Inc\'94;\
+shopifyStock.currentPrice = 1425.85;\
+shopifyStock.historyOfPrices = new int[] \{850, 925, 1200, 1150, 1375, 1420 \'85. n-1\};\
+shopifyStock.industryName = \'93technology\'94;\
+shopifyStock.publiclyTraded = true;\
+shopifyStock.highVolumeTrade = true;\
+\
+// initialization example 2 of new Stock object\
+Stock appleStock = new Stock();\
+appleStock.stockName = \'93Apple Inc\'94;\
+appleStock.currentPrice = 148.69;\
+appleStock.historyOfPrices = new int[] \{75, 150, 200, 350, 99, 148 \'85 n-1\};\
+appleStock.industryName = \'93technology\'94;\
+appleStock.publiclyTraded = true;\
+appleStock.highVolumeTrade = true;\
+\
+\
+Portfolio katiesStockPortfolio = new Portfolio();\
+katiesStockPortfolio.stockList = new Stock[]\{listOfPossibleStocks[0], listOfPossibleStocks[2], listOfPossibleStocks[4]\}\
+katiesStockPortfolio.stockQuantityList = new int[]\{15, 4, 6\};\
+\
+\
+\
+int valueOfPortfolio(Portfolio userPortfolio)\
+\{\
+\
+  float valueOfStocks = 0;\
+\
+  int index = 0;\
+  for (int index = 0; index < userPortfolio.stockList.length; index++)\
+  \{\
+    valueOfStocks += (userPortfolio.stockList[index].currentPrice) * (userPortfolio.stockQuantityList[index]);\
+  \
+  \}\
+  \
+  return valueOfStocks;\
+  \
+\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}
