@@ -1,0 +1,7 @@
+Repeat Question 1 so that the circle does not leave a trail as it moves across the screen. 
+Change the vertical position of the circle to be 7/8 of the window height instead of 1/8.
+
+Hints:
+
+- You don't actually have to change much code from Question 1.
+- Instead of adding something to the screen every time draw() is called, you want to start with a blank screen before drawing. How can you achieve this?
