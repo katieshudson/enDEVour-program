@@ -1,0 +1,26 @@
+** QUESTION 1 **
+
+Draw a rectangle somewhere on the screen. Create a ball that moves in a straight horizontal line, 
+ensuring that the ball’s path will cross that of the rectangle. When the ball hits the rectangle, it should bounce
+and start moving in the opposite direction. Similarly, if the ball hits the edge of the screen, it should bounce.
+
+
+
+
+** QUESTION 2 **
+
+Draw a circle in the output window. Your circle should be moving in some direction (other than horizontal or vertical) with a constant speed. 
+When your circle hits a wall, it should bounce off of it in a realistic way and keep moving. For example, the two screenshots below show the 
+bouncing ball after a few bounces and after many bounces (you don't have to leave a trail if you don't want to).
+
+Hint: One way to make the ball bounce is to simply negate the value representing speed in the appropriate direction. 
+For example, if bouncing off the top or bottom, you can negate the speed in the y-direction.
+
+
+
+
+** QUESTION 3 **
+
+Draw three boxes, each with a different colour, on the screen. Each box should have one letter (text) written inside the box, "A", "B" and "C".
+When you press one of the keys a, b or c, the colour of the box with that letter in it should change to another colour. When you press the same 
+key the colour of that box should return to its original colour.
