@@ -1,0 +1,18 @@
+For this assignment, you will have a lot of creative freedom.  
+
+Your goal is to make an interactive picture that represents how you, as a merchant, might react to the stress of an upcoming flash sale.  
+Have fun with it!
+
+Here are the requirements:
+
+- Create a Processing sketch that includes, somewhere, a representation of the merchant character as part of a scene or on a background.
+
+- The character needs to be sufficiently complex, consisting of at least 4 distinct components that can be made of shapes, images, etc.
+
+- The sketch must react to a mouse click in at least two areas of the screen.  Some clear visual aspects of your sketch must change when the mouse is clicked. 
+For example, something can grow, shrink, move, dance, change colour, etc…
+
+- The reaction should be related to the character’s increasing stress as the flash sale draws nearer.  You are invited to interpret this any way you want.
+
+- For one of the reactions, the number of clicks made in the same location should make a difference somehow to what happens.  
+For example, perhaps clicking on the character’s face makes it increasingly red.
